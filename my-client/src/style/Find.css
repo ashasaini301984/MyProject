@@ -1,0 +1,29 @@
+.container-find {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container-find h1 {
+    color: #d1a319;
+
+}
+
+.details {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ffeeba;
+    background-color: #fff3cd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.details h4 {
+    color: #6a4000;
+    margin-bottom: 10px;
+}
+

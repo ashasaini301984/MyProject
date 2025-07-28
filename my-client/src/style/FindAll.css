@@ -1,0 +1,87 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:20px;
+}
+div{
+    margin-bottom:20px;
+}
+h1{
+    color:blue;
+    text-align: center;
+}
+hr{
+    height:1px;
+    margin-bottom: 40px;
+}
+form{
+    text-align: center;
+    margin-bottom: 10px;
+}
+button{
+    background-color: #0b56a7;
+    color:white;
+    padding:10px 20px;
+    border-radius: 5px;
+    border:none;
+    cursor:pointer;
+    font-size: 16px;
+}
+button:hover{
+    background-color: palevioletred;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+    background-color:pink;
+
+}
+th, td{
+padding:12px 15px;
+border:1px solid #ddd;
+text-align: left;
+}
+th{
+    background-color:rgb(100, 195, 68);
+    color:black;
+    font-weight: bold;
+}
+tbody tr:nth-child(even){
+    background-color: #f8f8f8;
+}
+tbody tr:hover{
+    background-color: rgb(0, 229, 255);
+}
+td[colspan='4']{
+    text-align: center;
+    font-style:italic;
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+app.get('api/employees', async(req, res)=>{
+    const employees=await Employee.find();
+    res.json(employees);
+});
+app.listen(5000,()=>{
+    console.log("server is running");
+})*/

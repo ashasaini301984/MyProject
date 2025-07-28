@@ -1,0 +1,44 @@
+
+#inputs{
+    border:1px solid black;
+    border-radius: 8px;
+    width:300px;
+    padding:30px;
+    text-align: center;
+    box-shadow: 0 40px 8px(0,0,0,0.1);
+    background-color:#ffffff;
+    border:none;
+    margin:auto;
+    margin-top: 30px;
+}
+input[type="text"]{
+    width:calc(100-20px);
+    padding:10px;
+    margin-bottom: 15px;
+    border:1px solid #ddd;
+    border-radius: 4px;
+    box-sizing:border-box;
+}
+@media (max-width: 768px) {
+    #inputs {
+        width: 90%;
+        padding: 20px;
+    }
+    input {
+        font-size: 1.1em;
+    }
+}
+
+
+@media (max-width: 480px) {
+    #inputs {
+        width: 95%; 
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.5em; 
+    }
+    input, button {
+        width: 100%; 
+}
+}
