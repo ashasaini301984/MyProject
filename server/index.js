@@ -3,7 +3,7 @@ const express=require('express');
 const mongoose=require('mongoose');
 const cors=require('cors');
 
-const port = 3001;
+const port = 'https://frontend-8lri.onrender.com';
 const app = express();
 app.use(express.json());
 app.use(cors());
