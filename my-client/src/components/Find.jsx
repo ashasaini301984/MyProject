@@ -7,7 +7,7 @@ import "../style/Find.css";
     async function getData(e){
         e.preventDefault();
         try{
-            const response=await axios.get(`http://localhost:3001/api/employees/${id}`);
+            const response=await axios.get(`https://backend-90sj.onrender.com/api/employees/${id}`);
             setEmployee(response.data);
         }catch(err){
             setEmployee(null);
