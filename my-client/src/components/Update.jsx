@@ -13,7 +13,7 @@ import "../style/Update.css"
         e.preventDefault();
         try
         {
-const response = await axios.put(`http://localhost:3001/api/employees/${id}`, 
+const response = await axios.put(`https://backend-90sj.onrender.com/api/employees/${id}`, 
     { empNo: Number(empNo),empName, empSal: Number(empSal) });
             alert(response.data.message);
         }
