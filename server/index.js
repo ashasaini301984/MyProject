@@ -2,6 +2,8 @@ require('dotenv').config();
 const express=require('express');
 const mongoose=require('mongoose');
 const cors=require('cors');
+
+const port = 3001;
 const app = express();
 app.use(express.json());
 app.use(cors());
@@ -95,7 +97,7 @@ catch (error){
    res.status(400).json({message:error.mesage}); 
 }
 });
- app.listen(3001,()=>{
+ app.listen(port,()=>{
     console.log(`server is running on http://localhost:3001`);
 })
 
